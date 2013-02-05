@@ -4,13 +4,13 @@
 
     <target name="build">
         <echo>Loading ...</echo>
-        <exec command="webino-builder-zf1 devmod-test -Dpath=${phing.dir} -Dconfigure.mail=1 -Dconfigure.user=1"
+        <exec command="webino-builder-zf1 devmod-test -Dpath=${phing.dir}"
               checkreturn="true" logoutput="true"/>
     </target>
 
     <target name="dev">
         <echo>Loading ...</echo>
-        <exec command="webino-builder-zf1 devmod -Dpath=${phing.dir} -Dconfigure.mail=1 -Dconfigure.user=1"
+        <exec command="webino-builder-zf1 devmod -Dpath=${phing.dir}"
               checkreturn="true" logoutput="true"/>
     </target>
 

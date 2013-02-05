@@ -1,32 +1,14 @@
 {
-    "name": "webino/CHANGEME",
-    "description": "CHANGEME module for Webino ZF1",
+    "name": "webino/webino-zf1-colorbox",
+    "description": "Colorbox module for Webino ZF1",
     "type": "webino-module",
     "keywords": [
-        "zf1", "webino", "CHANGEME"
+        "zf1", "webino", "colorbox"
     ],
-    "homepage": "https://bitbucket.org/webino/CHANGEME",
-    "authors": [
-        {
-            "name": "Webino, s. r. o.",
-            "email": "info@webino.sk",
-            "homepage": "http://www.webino.sk/",
-            "role": "Developer"
-        },
-        {
-            "name": "Peter Bačinský",
-            "email": "peter@bacinsky.sk",
-            "homepage": "http://www.bacinsky.sk/",
-            "role": "Developer"
-        }
-    ],
+    "homepage": "http://www.jacklmoore.com/colorbox",
     "require": {
         "php": ">=5.3.3",
         "webino/webino-zf1-composer-installer": "dev-master",
-        "CHANGEME": "CHANGEME"
-    },
-    "require-dev": {
-        "webino/webino-zf1-application": "dev-master",
-        "webino/webino-zf1-theme-demo-web": "dev-master"
+        "webino/webino-zf1-base": "dev-master"
     }
 }
